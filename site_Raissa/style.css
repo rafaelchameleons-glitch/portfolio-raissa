@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    padding: 0 20px;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-image: url('./img/capa\ site.png'); 
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #fff;
+}
+header h1{
+    font-family: 'Italiana', serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    color: #fff;
+}
+
+nav{
+    padding-right: 20px;
+    position: relative;
+    display: inline-block;  
+}
+
+
+ ul{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4F2EC;
+}
+#sobre{
+   display: flex;
+    width: 550px;
+    margin: 40px 0;
+    gap: 40px;
+}
+#sobre img{
+    width: 50%;
+    height: 50%;
+}
+#sobre p{
+    font-size: 16px;
+    line-height: 2em;
+}
+#ilustracoes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ilustracoes h2{
+    margin: 40px 0;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+.gallery-ilustracoes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.galeria-item{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+.galeria-caption{
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.gallery-ilustracoes img{
+    width: 60%;
+    
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4F2EC;
+}   
